@@ -4,6 +4,8 @@ import { ProductContext } from '../context/ProductContex'
 import Title from './Title';
 import ProductItem from './ProductItem';
 
+
+
 const RelatedProduct = ({category,subCategory}) => {
 
      const {products} = useContext(ProductContext)
